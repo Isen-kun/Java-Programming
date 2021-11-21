@@ -36,5 +36,6 @@ class scan {
             System.out.println("Invaid command");
             break;
         }
+        sc.close();
     }
 }
