@@ -91,7 +91,7 @@ public class fifth {
                     found = C[i].search(acn);
                     if (found) {
                         C[i].deposit();
-                        // break;
+                        break;
                     } else {
                         System.out.println("Account does not exist in our records.");
                     }
